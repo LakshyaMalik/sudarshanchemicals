@@ -1,0 +1,38 @@
+import React, { useState } from "react";
+import "./Navbar.css";
+import { Link } from 'react-router-dom';
+import { SlSocialFacebook } from "react-icons/sl";
+import { SiInstagram } from "react-icons/si";
+import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
+
+export const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div className={`navbar ${isOpen ? 'open' : ''}`}>
+            <input type="checkbox" id="menu-toggle" onChange={toggleMenu} />
+            <label htmlFor="menu-toggle" className={`hamburger`}>
+                {!isOpen ? <RxHamburgerMenu /> : <RxCross2 />}
+            </label>
+
+            <div className={`link ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About US</Link></li>
+                    <li><Link to="/product">Products</Link></li>
+                    <li><Link to="/ourclient">Our Clients</Link></li>
+                    <li><Link to="/certificate">Certificates</Link></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li><Link to="/enquiry">Enquiry</Link></li>
+                    <li id="social">
+                        <h4><Link to="/enquiry"><SlSocialFacebook /></Link> <Link to="/enquiry"><SiInstagram /></Link></h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    );
+};

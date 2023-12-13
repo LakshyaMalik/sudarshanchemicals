@@ -1,0 +1,19 @@
+.home{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mase .button{
+    padding: 25px;
+}
+  
+@media only screen and (min-width: 802px) {
+    .home{
+        width:99vw;
+    }
+
+}

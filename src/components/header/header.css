@@ -1,0 +1,32 @@
+.header {
+  margin: auto 2vw;
+  padding: 16px 32px;
+  width: 90vw;
+  min-width: 440px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  padding-right: 5px;
+}
+
+.header .h-item{
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.header .nav{
+  position: relative;
+}
+
+@media screen and (max-width: 802px){
+
+    .header .h-info{
+      display: none;
+    }
+}
