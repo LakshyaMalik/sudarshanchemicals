@@ -13,7 +13,10 @@ export const Contact = () => {
 
     <div className="contact">
 
+      <div className="hed">
       <h2>Get in Touch</h2>
+      </div>
+
 
       <form onSubmit={handleSubmit} action="https://formspree.io/f/mleyqvad">
 

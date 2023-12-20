@@ -9,67 +9,69 @@ const productList = [
 
     {
       "id": "ase1009",
-      "name": "Urine Analyzer",
+      "name": "Urin Analyzer",
       "image": "https://biosan.lv/products/real-time-pcr-bioquant-96/",
-      "description": "Quantitative analysis of nucleic acids",
+      "description": "Automated Urin strip analyzer ISO 9001 - 2000 WHO - GMP Certified",
       "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%201009%20Urin%20Analyzer%20(Automated%20Urin%20Strip%20Analyzer%20ISO%209001%20-%202000%20WHO%20-%20GMP%20Certified).pdf?alt=media&token=4f8f105c-bf0d-4db2-89a0-830900d738c0"
     },
 
     {
-      "id": 3,
-      "name": "Flow Cytometer",
-      "image": "https://www.abcam.com/protocols/introduction-to-flow-cytometry",
-      "description": "Cell sorting and analysis"
+      "id": "ase100h",
+      "name": "Hook's Apparatus",
+      "image": "https://biosan.lv/products/real-time-pcr-bioquant-96/",
+      "description": "",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%20100H%20Horrok's%20Apparatus.pdf?alt=media&token=6057bbe2-9447-4040-a67e-24cbb1ba1d94"
     },
 
     {
-      "id": 4,
-      "name": "Automated ELISA Processor",
-      "image": "https://www.indiamart.com/proddetail/fully-automated-elisa-processor-elisia-plus-14499940197.html",
-      "description": "High-throughput protein detection"
+      "id": "ase101",
+      "name": "BOD Incubator",
+      "image": "https://biosan.lv/products/real-time-pcr-bioquant-96/",
+      "description": "Low Temperature",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%20101%20BOD%20Incubator%20(Low%20Temp).pdf?alt=media&token=39ca5dc1-90cf-4574-8152-8d7143464084"
     },
 
     {
-      "id": 5,
-      "name": "Confocal Microscope",
-      "image": "https://cdn.britannica.com/76/128776-050-731168E6/microscope-microscopy.jpg",
-      "description": "3D imaging of cells and tissues"
+      "id": "ase1015",
+      "name": "Ultra Sonic Cleaner",
+      "image": "https://biosan.lv/products/real-time-pcr-bioquant-96/",
+      "description": "",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%201015%20Ultra%20Sonic%20Cleaner.pdf?alt=media&token=31925c1a-03ea-4c2b-bf00-f70c9a5ee594"
     },
 
     {
-      "id": 6,
-      "name": "Electron Microscope",
-      "image": "https://example.com/images/electron-microscope.jpg",
-      "description": "High-resolution imaging of cells and molecules"
+      "id": "ase1016",
+      "name": "BB Dry Bath",
+      "image": "https://biosan.lv/products/real-time-pcr-bioquant-96/",
+      "description": "",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%201016%20BB%20Dry%20Bath.pdf?alt=media&token=b3b28794-20ce-4a46-990f-09211c0412c5"
     },
 
     {
-      "id": 7,
-      "name": "Centrifuge",
-      "image": "https://example.com/images/centrifuge.jpg",
-      "description": "Separates particles based on size and density"
+      "id" : "ase101w",
+      "name" : "Wind Vane",
+      "image": "",
+      "description" : "",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%20101W%20Wind%20Vane.pdf?alt=media&token=5c8c39f2-80bc-4e7e-85d9-53f1f23015ff"
     },
 
     {
-      "id": 8,
-      "name": "Incubator",
-      "image": "https://example.com/images/incubator.jpg",
-      "description": "Maintains controlled environment for cell cultures"
+      "id" : "ase102",
+      "name" : "Incubator",
+      "image" : "",
+      "description" : "Super Automatic Model",
+      "brochure" : "https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/ASE%20102%20Incubator%20(Super%20Automatic%20Model).pdf?alt=media&token=f63a1aab-f341-453d-9e1e-2e9ce520c70c"
     },
 
     {
-      "id": 9,
-      "name": "Spectrophotometer",
-      "image": "https://example.com/images/spectrophotometer.jpg",
-      "description": "Measures the concentration of substances"
+      "id" : "",
+      "name" : "",
+      "image" : "",
+      "description" : "",
+      "brochure" : ""
     },
 
-    {
-      "id": 10,
-      "name": "Autoclave",
-      "image": "https://example.com/images/autoclave.jpg",
-      "description": "Sterilizes equipment and materials"
-    }
+    
   ];
 
   export default productList;

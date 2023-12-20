@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-width: 440px;
+    min-width: 340px;
     height: 400px; 
     display:flex;
     justify-self: center;

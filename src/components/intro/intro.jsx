@@ -7,7 +7,7 @@ import "./intro.css";
 
 export const Intro = () => {
  
-  const limitedIds = ["ASE116", 3, 5, 7]; // Example IDs, replace with your actual IDs
+  const limitedIds = ["ASE116", "ase1015" , "ase1016" , "ase101w"]; // Example IDs, replace with your actual IDs
   const limitedProducts = productList.filter((product) => limitedIds.includes(product.id));
 
   return (
@@ -15,9 +15,7 @@ export const Intro = () => {
       <div className="col">
         <h3>Manufacturers And Suppliers Laboratory Equipment</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus earum temporibus cumque ea deserunt a ipsa nesciunt
-          autem voluptate, totam nihil officia quidem consequuntur consectetur minus? Cupiditate expedita ducimus rerum commodi!
-          Adipisci eius itaque consectetur eum sit a, neque in!
+        Registered in 2010 ,India Sudarshan Chemicals has gained immense expertise in supplying & trading of Instrument furniture, table, chair etc. The supplier company is located in Kota, Rajasthan and is one of the leading sellers of listed products. Buy Instrument furniture, table, chair in bulk from us for the best quality products and service.
         </p>
         <Link to="/about">
           <button>About us </button>
@@ -26,7 +24,7 @@ export const Intro = () => {
 
       <div className="col idiv">
         <img
-          src="https://imgs.search.brave.com/LmQs0MAaOXGHM5mJR4Jvrz--TAaYBX29_m7uAQXuTAc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE3LzE4Lzcx/LzM2MF9GXzUxNzE4/NzExOF9iMHN6bXVQ/bEtJSjJFb25xcTly/VHlBeWNxOHU3TG9T/aS5qcGc"
+          src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/Bauji.png?alt=media&token=f63f0e0b-dab0-4762-9e1e-bfa248a4de80"
           alt="image"
         />
       </div>

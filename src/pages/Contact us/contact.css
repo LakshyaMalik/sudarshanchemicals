@@ -3,7 +3,7 @@
   justify-content:space-between;
   align-items: center;
   flex-wrap: wrap;
-  height:100vh;
+  width:99vw;
 }
 
 .contact .col{
@@ -11,7 +11,7 @@
   justify-content: space-evenly;
   align-items:center;
   flex-direction: row;
-  width: 100vw;
+  width: 95vw;
   min-width: 450px;
 }
 
@@ -21,7 +21,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 95vw;
   min-width: 450px;
 }
 
@@ -45,6 +45,18 @@
   padding: 16px 60px;
   font-size: 1.2rem;
   margin-top: 20px;
+}
+
+.hed{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.hed h2{
+  text-align: center;
+  width: 95vw;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 810px) {

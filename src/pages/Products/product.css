@@ -1,10 +1,8 @@
 .product {
-    margin: 0;
-    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    width:99vw;
+    /* width:99vw; */
   }
 
   .products{
@@ -19,3 +17,9 @@
     max-width: 400px; /* Adjust as needed */
   }
 
+  @media screen and (min-width: 1002px){
+
+    .product {
+      width: 99vw;
+    }
+}

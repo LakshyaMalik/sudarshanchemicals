@@ -8,11 +8,13 @@ export const Header = () => {
   return (
     <div className='header'>
 
-      <div className='h-item'><h1>Sudarshan Chemicals</h1></div>
+      <div className='h-item'>
+      <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/alpha.png?alt=media&token=2078074c-5124-4e5f-a2ce-8fa60db4b9fb" alt="Alpha Sudarshan" />
+      </div>
 
       <div className='h-item h-info'>
         <h1><GoClock/></h1>
-        <p> Monday - Saturday 09:00 - 18:30 (IST) <br /> Sunday - Closed</p>
+        <p> Monday - Saturday 09:30 - 18:30 (IST) <br /> Sunday - Closed</p>
       </div>
 
       <div className='h-item h-info'>
@@ -22,7 +24,7 @@ export const Header = () => {
 
       <div className='h-item h-info'>
         <h1><IoPhonePortraitSharp /></h1>
-        <p>+91-9414188018, +91-00000000 <br /> sudarshanchemicals@gmail.com</p>
+        <p>+91-9414188018, 0744 2362345 <br /> sudarshanchemicals@gmail.com</p>
       </div>
       
 
