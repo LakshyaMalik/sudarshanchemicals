@@ -9,14 +9,6 @@ const Banner = () => {
     {
       id: 1,
       imageUrl:
-        'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fcard.jpg?alt=media&token=be57e722-cec3-4728-93dd-196316525cf0',
-      text: 'Since 2010',
-      linkUrl:"/about",
-      buttonText: 'Know more >>',
-    },
-    {
-      id: 2,
-      imageUrl:
         'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fsudarshanchemicalbanner2.jpg?alt=media&token=a5dea5c2-fbbe-4629-bef7-5b5a20dfdfda',
       text: 'Manufacturer Of Scientific Goods,Laboratory Chemicals, Laboratory Glass wares,',
       text2: "Hospital Furniture,Medical & Scientific Equipment's for",
@@ -25,6 +17,16 @@ const Banner = () => {
       linkUrl:"/contact",
       buttonText: 'Contact Us >>',
     },
+
+    {
+      id: 2,
+      imageUrl:
+        'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fcard.jpg?alt=media&token=be57e722-cec3-4728-93dd-196316525cf0',
+      text: 'Since 2010',
+      linkUrl:"/about",
+      buttonText: 'Know more >>',
+    },
+
     {
       id: 3,
       imageUrl:

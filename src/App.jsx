@@ -9,7 +9,6 @@ import {Certificates} from './pages/Certificates/Certificates';
 import { Contact } from './pages/Contact us/contact';
 import { Enquiry } from './pages/Enquiry/enq';
 import { Product } from './pages/Products/product';
-import {ScrollUp} from './components/scrollbtn/Scrollup';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
       <Route path="/contact" element={ <Contact /> } />
       <Route path="/enquiry" element={ <Enquiry /> } />
     </Routes>
-    <ScrollUp />
     <Footer />   
     </>
   );

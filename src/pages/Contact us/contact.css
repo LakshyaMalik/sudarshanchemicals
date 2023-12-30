@@ -3,7 +3,7 @@
   justify-content:space-between;
   align-items: center;
   flex-wrap: wrap;
-  width:99vw;
+  width:95vw;
 }
 
 .contact .col{
@@ -12,7 +12,7 @@
   align-items:center;
   flex-direction: row;
   width: 95vw;
-  min-width: 450px;
+  min-width: 250px;
 }
 
 
@@ -22,7 +22,7 @@
   align-items: center;
   flex-direction: column;
   width: 95vw;
-  min-width: 450px;
+  min-width: 250px;
 }
 
 .contact textarea{
@@ -30,7 +30,7 @@
   height: 30vh;
   border-radius: 5px;
   margin-top: 20px;
-  min-width: 450px;
+  min-width: 250px;
 }
 
 .contact input{

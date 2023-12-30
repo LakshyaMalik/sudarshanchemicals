@@ -1,13 +1,14 @@
 .Certificates{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width: 95vw;
 }
 
 .Certificates img{
-    width: 200px; 
+    width: 20vw; 
     height: auto; 
     max-height: 600px; 
     margin: 20px; 
@@ -17,9 +18,16 @@
     object-fit: contain;
 }
 
-@media screen and (min-width: 1202px){
-
+@media screen and (min-width: 1202px) {
     .Certificates {
-      width: 99vw;
+        width: 99vw;
     }
 }
+
+@media screen and (max-width: 502px) {
+    .Certificates img {
+        width: 100vw;
+    }
+}
+
+

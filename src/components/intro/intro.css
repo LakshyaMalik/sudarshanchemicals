@@ -1,12 +1,12 @@
 .intro{
     position: relative;
     overflow: hidden;
-    padding: 20px 30px;
-    min-width: 340px;
+    padding: 20px 0 20px 20px;
+    min-width: 280px;
     display:flex;
     flex-wrap: wrap;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
     text-align: left;
@@ -20,13 +20,13 @@
 }
 
 .intro h3{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0 0 0;
     font-size: 2em;
 }
 
 .idiv{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -38,7 +38,7 @@
     width: 280px;
     margin: 20px 10px;
     border-radius: 1vw;
-    box-shadow:rgb(179, 240, 255) 0px 0px 10px -1px;
+    box-shadow:rgb(179, 240, 255) 0 0 10px -1px;
 }
 
 .col p{
@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .prod-item{
@@ -71,17 +71,19 @@
 #prod-btn{
     text-decoration: none;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
-@media only screen and (max-width: 602px) {
+@media only screen and (max-width: 702px) {
     .intro{
         display: flex;
         flex-direction: row;
     }
-
-
-
+    
+    #prod-btn{
+        justify-content: center;
+    }
+    
     .col{
         width: 90vw;
     }
