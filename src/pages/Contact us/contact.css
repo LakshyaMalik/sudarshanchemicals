@@ -47,8 +47,8 @@
   margin-top: 20px;
 }
 
-.hed{
-  height: 50px;
+.contact .hed{
+  height: auto;
   display: flex;
   justify-content: center;
 }

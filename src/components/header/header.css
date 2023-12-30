@@ -1,7 +1,6 @@
 .header {
   margin: auto 1vw;
   padding: 16px 32px;
-  /* width: 95vw; */
   min-width: 350px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   display: flex;
@@ -16,14 +15,19 @@
   padding-right: 5px;
 }
 
+.header .address {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .header .h-item{
   display: inline-flex;
   justify-content: space-between;
 }
 
-.logo{
-  width: 10rem;
-  height: auto;
+.header .logo{
+  max-height: 220px;
 }
 
 .header .nav{

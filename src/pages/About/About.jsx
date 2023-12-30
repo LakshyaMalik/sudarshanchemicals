@@ -1,10 +1,10 @@
 import React from "react";
-import '../../components/intro/intro.css';
+import './about.css';
 
 export const About = () => {
     return(
 
-        <div className="intro">
+        <div className="about">
 
             <div className="rest"></div>
             <div className="col">
@@ -47,7 +47,7 @@ export const About = () => {
         <br />
 
         <h3>How to Reach Us?</h3>
-        <p>Sudarshan Chemicals is conveniently located at Sudarshan Building, Jhalawar Road, Kota 324007 (India). For precise directions and inquiries, customers can reach out to the company directly at +91-9414188018 or via email at sudarshanchemicals@gmail.com.</p>
+        <p>Our factory is conveniently located at 9I, Indraprastha Industrial Area Chambal Industrial Area Road near Rajasthan Patrika Kota, Rajasthan 324007 (India). For precise directions and inquiries, customers can reach out to the company directly at +91-9414188018 or via email at sudarshanchemicals@gmail.com.</p>
         <p>With a decade of experience and a commitment to customer satisfaction, we continues to be a reliable and customer-focused supplier in Kota, Rajasthan. Whether you require instrument furniture, tables, chairs, or related products, Sudarshan Chemicals is dedicated to meeting your needs with integrity and quality assurance.</p>
       </div>
 

@@ -3,13 +3,19 @@
     overflow: hidden;
     width: 100%;
     min-width: 340px;
-    height: 400px; 
+    height: 550px; 
     display:flex;
     justify-self: center;
   }
   
   .banner h3 {
-    font-size: 4rem;
+    font-size: 2vw;
+  }
+
+  .banner .tg{
+    background-color: rgba(0, 55, 150, 0.681);
+    border-radius: 10px;
+    max-width: 80vw;
   }
 
   .banner-image {
@@ -34,6 +40,7 @@
   .banner-content button {
     padding: 15px 30px;
     font-size: 1.5em;
+    background-color: rgb(10, 72, 180);;
   }
   
   .banner .controls {
@@ -48,12 +55,17 @@
   }
   
   .banner .controls button {
-    background: transparent;
+    background: rgba(245, 245, 245, 0.475);
     opacity:50%;
-    color: #fff;
+    color: #00026d97;
     padding: 10px;
     font-size: 1.7em;
     border: none;
     cursor: pointer;
   }
 
+@media screen and (max-width:490px) {
+  .banner h3 {
+    font-size: 4vw;
+  }
+}

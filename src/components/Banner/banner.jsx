@@ -9,26 +9,29 @@ const Banner = () => {
     {
       id: 1,
       imageUrl:
-        'https://firebasestorage.googleapis.com/v0/b/musics-lakki.appspot.com/o/guitar%20sikhda%20img.jpg?alt=media&token=1f4d18b4-7603-4efd-83ed-f998a3107613',
-      text: 'Slide 1 Text',
-      linkUrl:"/product",
-      buttonText: 'Our Products >',
+        'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fcard.jpg?alt=media&token=be57e722-cec3-4728-93dd-196316525cf0',
+      text: 'Since 2010',
+      linkUrl:"/about",
+      buttonText: 'Know more >>',
     },
     {
       id: 2,
       imageUrl:
-        'https://firebasestorage.googleapis.com/v0/b/musics-lakki.appspot.com/o/jaanitera%20na%20img.jpg?alt=media&token=5dafd80f-41c4-49b2-a96a-c262b8db4ded',
-      text: 'Slide 2 Text',
-      linkUrl:"/product",
-      buttonText: 'Our Products >',
+        'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fsudarshanchemicalbanner2.jpg?alt=media&token=a5dea5c2-fbbe-4629-bef7-5b5a20dfdfda',
+      text: 'Manufacturer Of Scientific Goods,Laboratory Chemicals, Laboratory Glass wares,',
+      text2: "Hospital Furniture,Medical & Scientific Equipment's for",
+      text3: "Biochemistry, Physiology, Anatomy, Microbiology, Pathology, Pharmacology, Forensic Department and others.",
+      text4: "Complete setup for New Medical College Equipment's as per NMC norms with ISO, European CE Certified",
+      linkUrl:"/contact",
+      buttonText: 'Contact Us >>',
     },
     {
       id: 3,
       imageUrl:
-        'https://imgs.search.brave.com/gyeHpJVRfa8X75WrnBB75SH6qcurvzXL511wwIMDa6s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGlnaWtleS5jb20v/LS9tZWRpYS9NYWtl/cklPL0ltYWdlcy9i/bG9ncy8yMDIwL1Ro/ZSUyMEhhY2tzbWl0/aCUyMFRoZSUyMFdv/cmxkcyUyMEJyaWdo/dGVzdCUyMEZsYXNo/bGlnaHQvVGhlLUhh/Y2tzbWl0aC1UaGUt/V29ybGRzLUJyaWdo/dGVzdC1GbGFzaGxp/Z2h0LmpwZz9sYT1l/bi1VUyZ0cz1kM2Ji/MWExNC1mMjM3LTRi/ZTYtYjZjYy00MWQ5/Yzk4ZTNlZWM',
-      text: 'Slide 3 Text',
+        'https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2Fsudarshanchemicalbanner3.jpg?alt=media&token=2469b200-e8ca-4353-a9e1-f1f1c0b1c4f4',
+      text: 'Check Our Wide Range Products',
       linkUrl:"/product",
-      buttonText: 'Our Products >',
+      buttonText: 'Our Products >>',
     },
   ];
 
@@ -71,8 +74,15 @@ const Banner = () => {
         }}
       >
         <div className="banner-content">
+          <div className="tg">
           <h3>{slides[currentSlide].text}</h3>
-          <Link to={slides[currentSlide].linkUrl}><button>{slides[currentSlide].buttonText}</button></Link>
+          <h3>{slides[currentSlide].text2}</h3>
+          <h3>{slides[currentSlide].text3}</h3>
+          <h3>{slides[currentSlide].text4}</h3>
+          </div>
+          <Link to={slides[currentSlide].linkUrl}>
+            <button>{slides[currentSlide].buttonText}
+          </button></Link>
           
         </div>
       </animated.div>

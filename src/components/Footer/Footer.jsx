@@ -17,7 +17,9 @@ const Footer = () => {
       <div className="ptsn">
 
           <div className="footer-f-section">
-          <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/alpha.png?alt=media&token=2078074c-5124-4e5f-a2ce-8fa60db4b9fb" alt="Alpha Sudarshan" />
+          <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2FAlpha-logo.jpeg?alt=media&token=6f63a0e5-a172-4340-aa2f-959b212c7b73" alt="Alpha Sudarshan" />
+          <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2FALPSUD-logo.jpg?alt=media&token=873fff38-62f5-4740-855b-f5392d7063de" alt="ALPSUD" />
+          <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/other-assets%2FALNKOTA-logo.jpg?alt=media&token=223c2579-5018-47fa-972c-9550f8562835" alt="Aln Kota" />
             <p>
               We strive to lead the industry with unwavering commitment, innovation, and excellence. Our aim is to exceed standards, meet diverse customer needs, and uphold integrity in delivering quality solutions for scientific research and mortuary requirements.
             </p>
@@ -29,10 +31,10 @@ const Footer = () => {
 
           <div className="social-icons">
             <ul>
-           <li> <Link to="/enquiry"><FaFacebook /></Link> </li>
-           <li> <Link to="https://www.instagram.com/sanjeev7856/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg=="><FaInstagram /></Link> </li>
-           <li> <Link to="/sudarshanchemicals@gmail.com"><BiLogoGmail /></Link> </li>
-           <li> <Link to="/enquiry"><FaMapLocationDot /></Link> </li>
+           <li> <a href="/enquiry"><FaFacebook /></a> </li>
+           <li> <a href="https://www.instagram.com/sanjeev7856/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a> </li>
+           <li> <a href="mailto:sudarshanchemicals@gmail.com"><BiLogoGmail /></a> </li>
+           <li> <a href="https://maps.app.goo.gl/dZbREF94P3qK9DQRA" target="_blank" rel="noopener noreferrer"><FaMapLocationDot /></a> </li>
             </ul>
           </div>
 

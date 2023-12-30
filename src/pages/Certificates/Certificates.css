@@ -1,0 +1,25 @@
+.Certificates{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Certificates img{
+    width: 200px; 
+    height: auto; 
+    max-height: 600px; 
+    margin: 20px; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden; 
+    object-fit: contain;
+}
+
+@media screen and (min-width: 1202px){
+
+    .Certificates {
+      width: 99vw;
+    }
+}

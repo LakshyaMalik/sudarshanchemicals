@@ -1,0 +1,97 @@
+.about{
+    position: relative;
+    overflow: hidden;
+    padding: 1%;
+    min-width: 340px;
+    display:flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: left;
+    border: none;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.about h3{
+    margin: 10px 0px 0px 0px;
+    font-size: 2em;
+}
+
+.idiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adiv{
+    align-items: center;
+}
+
+.col img {
+    width: 280px;
+    margin: 20px 10px;
+    border-radius: 1vw;
+    box-shadow:rgb(179, 240, 255) 0px 0px 10px -1px;
+}
+
+.col p{
+    margin-right: 5px;
+}
+
+.about button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    margin-bottom:20px;
+}
+
+.about .prod{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.prod-item{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-item h3{
+    font-size: 1.3rem;
+}
+
+#prod-btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+}
+
+@media only screen and (max-width: 602px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .col{
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width: 1322px) {
+    .about{
+        width:100vw;
+        justify-content: left;
+    }
+
+    .col{
+        width: 45vw;
+    }
+
+}

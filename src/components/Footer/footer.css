@@ -1,5 +1,5 @@
 .footer {
-  background-color: #333;
+  background-color: #333333;
   color: #fff;
   padding: 40px 5vw;
   box-sizing: border-box;
@@ -20,6 +20,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.footer .logo{
+  width: 230px;
+  height: 70px;
+  margin:5px;
 }
 
 .footer-f-section{

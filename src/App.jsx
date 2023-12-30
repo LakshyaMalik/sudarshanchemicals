@@ -5,10 +5,11 @@ import { Header } from './components/header/header';
 import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './pages/Home/home';
 import { About } from './pages/About/About';
+import {Certificates} from './pages/Certificates/Certificates';
 import { Contact } from './pages/Contact us/contact';
 import { Enquiry } from './pages/Enquiry/enq';
 import { Product } from './pages/Products/product';
-import ScrollBtn from './components/scrollbtn/scroll'
+import {ScrollUp} from './components/scrollbtn/Scrollup';
 
 function App() {
   return (
@@ -19,12 +20,11 @@ function App() {
       <Route path="/" element={ <Home /> } />
       <Route path="/about" element={ <About /> } />
       <Route path="/product" element={ <Product /> } />
+      <Route path="/Certificates" element={ <Certificates /> } />
       <Route path="/contact" element={ <Contact /> } />
       <Route path="/enquiry" element={ <Enquiry /> } />
     </Routes>
-
-    <ScrollBtn/>
-
+    <ScrollUp />
     <Footer />   
     </>
   );
