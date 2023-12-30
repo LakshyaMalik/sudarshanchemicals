@@ -26,7 +26,9 @@ export const Certificates = () => {
 
   return (
     <div className="Certificates">
+      <div className="hed">
       <h3>Our Certificates</h3>
+      </div>
       {images.map((image, index) => (
         <img key={index} src={image.src} alt={image.alt} className="image-item" loading="lazy"/>
       ))}

@@ -7,6 +7,10 @@
     max-width: 95vw;
 }
 
+.Certificates .hed{
+    justify-content: center;
+}
+
 .Certificates img{
     width: 20vw; 
     height: auto; 
