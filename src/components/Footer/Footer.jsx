@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaInstagram } from 'react-icons/fa';
 import { FaMapLocationDot } from "react-icons/fa6";
-import './Footer.css';
+import './footer.css';
 
 const Footer = () => {
   const currYear = new Date().getFullYear();
