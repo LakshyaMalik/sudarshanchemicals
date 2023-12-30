@@ -28,7 +28,8 @@ export const Navbar = () => {
                     <li><Link to="/contact">Contact Us</Link></li>
                     <li><Link to="/enquiry">Enquiry</Link></li>
                     <li id="social">
-                        <h4><Link to="/enquiry"><SlSocialFacebook /></Link> <Link to="/enquiry"><SiInstagram /></Link></h4>
+                        <h4><a href="https://www.facebook.com/profile.php?id=100010836252495" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                        <a href="https://www.instagram.com/sanjeev7856/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></h4>
                     </li>
                 </ul>
             </div>
