@@ -1,6 +1,6 @@
 .Card {
   box-shadow:rgb(224, 224, 224) 0px 0px 10px -1px;
-  width: 260px; 
+  width: 340px; 
   height: auto; 
   max-height: 600px; 
   margin: 20px auto; 
@@ -10,7 +10,7 @@
   overflow: hidden; 
 }
 
-.Card h3 {
+.Card h1 {
   font-size: 1.3rem;
   margin-bottom: 6px;
 }
@@ -24,9 +24,9 @@
 }
 
 .Card img{
-  min-width: 180px;
-  max-width: 200px;
-  max-height: 250px;
+  min-width: 200px;
+  max-width: 240px;
+  max-height: 200px;
   object-fit: contain;
 }
 
@@ -48,11 +48,22 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .Card h3{
+  .Card h1{
     font-size: 1.2rem;
   }
 
   .Card p{
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
+}
+
+@media only screen and (max-width: 365px) {
+.Card{
+  width: 250px;
+}
+
+.Card img{
+  min-width: 110px;
+  max-width: 150px;
+}
 }
