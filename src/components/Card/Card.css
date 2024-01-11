@@ -1,6 +1,6 @@
 .Card {
   box-shadow:rgb(224, 224, 224) 0px 0px 10px -1px;
-  width: 340px; 
+  width: 260px; 
   height: auto; 
   max-height: 600px; 
   margin: 20px auto; 
@@ -24,9 +24,9 @@
 }
 
 .Card img{
-  min-width: 200px;
-  max-width: 240px;
-  max-height: 200px;
+  min-width: 180px;
+  max-width: 200px;
+  max-height: 250px;
   object-fit: contain;
 }
 
