@@ -3,13 +3,14 @@
     overflow: hidden;
     width: 99vw;
     min-width: 340px;
-    height: 550px; 
+    height: max-content;
+    min-height: 550px; 
     display:flex;
     justify-content: center;
   }
   
   .banner h3 {
-    font-size: 2vw;
+    font-size: 1.5rem;
   }
 
   .banner .tg{
@@ -64,11 +65,11 @@
     cursor: pointer;
   }
 
-@media screen and (max-width:690px) {
+@media screen and (max-width:595px) {
   .banner{
     height: 400px;
   }
   .banner h3 {
-    font-size: 4vw;
+    font-size: 1.1rem;
   }
 }
