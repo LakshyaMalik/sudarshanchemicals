@@ -27,6 +27,8 @@ export const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          allowtransparency="true" 
+          frameborder="0" 
         ></iframe>
       </div>
 
