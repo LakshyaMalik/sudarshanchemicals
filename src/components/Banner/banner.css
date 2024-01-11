@@ -9,7 +9,7 @@
     justify-content: center;
   }
   
-  .banner h3 {
+  .banner h2 {
     font-size: 1.5rem;
   }
 
@@ -69,7 +69,7 @@
   .banner{
     height: 400px;
   }
-  .banner h3 {
+  .banner h2 {
     font-size: 1.1rem;
   }
 }

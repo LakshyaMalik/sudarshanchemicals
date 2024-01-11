@@ -20,7 +20,7 @@ const Card = ({ product }) => {
         <img src={product.image} alt={product.name} />
       </figure>
       <div className="Card-details">
-        <h1>{product.name}</h1>
+        <h3>{product.name}</h3>
         <p>{product.description}</p>
         <div className="Card-buttons">
           <button className="Card-button" onClick={handleDownloadBrochure}><BsFiletypePdf /> Download Brochure </button>

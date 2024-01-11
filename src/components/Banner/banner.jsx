@@ -77,10 +77,10 @@ const Banner = () => {
       >
         <div className="banner-content">
           <div className="tg">
-          <h3>{slides[currentSlide].text}</h3>
-          <h3>{slides[currentSlide].text2}</h3>
-          <h3>{slides[currentSlide].text3}</h3>
-          <h3>{slides[currentSlide].text4}</h3>
+          <h2>{slides[currentSlide].text}</h2>
+          <h2>{slides[currentSlide].text2}</h2>
+          <h2>{slides[currentSlide].text3}</h2>
+          <h2>{slides[currentSlide].text4}</h2>
           </div>
           <Link to={slides[currentSlide].linkUrl}>
             <button>{slides[currentSlide].buttonText}

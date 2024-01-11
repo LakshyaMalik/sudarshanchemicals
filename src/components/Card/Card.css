@@ -10,7 +10,7 @@
   overflow: hidden; 
 }
 
-.Card h1 {
+.Card h3 {
   font-size: 1.3rem;
   margin-bottom: 6px;
 }
@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .Card h1{
+  .Card h3{
     font-size: 1.2rem;
   }
 
