@@ -51,12 +51,12 @@
     width: 99vw;
     display: flex;
     justify-content: space-between;
-    padding: 0 8px;
+    padding: 20px 8px;
     box-sizing: border-box;
   }
   
   .banner .controls button {
-    background: rgba(107, 186, 255, 0.584);
+    background: rgba(107, 186, 255, 0.725);
     opacity:50%;
     color: #00026dd6;
     padding: 10px;

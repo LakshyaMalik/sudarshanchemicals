@@ -1,7 +1,6 @@
 // Footer.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaInstagram } from 'react-icons/fa';
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -31,7 +30,6 @@ const Footer = () => {
 
           <div className="social-icons">
             <ul>
-           <li> <a href="https://www.facebook.com/profile.php?id=100010836252495" target="_blank" rel="noopener noreferrer"><FaFacebook /></a> </li>
            <li> <a href="https://www.instagram.com/sanjeev7856/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a> </li>
            <li> <a href="mailto:sudarshanchemicals@gmail.com"><BiLogoGmail /></a> </li>
            <li> <a href="https://maps.app.goo.gl/dZbREF94P3qK9DQRA" target="_blank" rel="noopener noreferrer"><FaMapLocationDot /></a> </li>

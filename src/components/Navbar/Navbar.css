@@ -14,7 +14,7 @@
     margin:0;
 }
 
-.navbar ul li {
+.navbar li {
     list-style: none;
     font-size: 1.2rem;
     text-align: center;
@@ -22,7 +22,7 @@
     padding: 16px 0;
 }
 
-.navbar ul li:hover {
+.navbar li:hover {
     padding: 13.5px 0;
     border-bottom: 2.5px solid rgb(24, 108, 252); 
 }
@@ -38,7 +38,7 @@
 }
 
 
-.navbar li a {
+.navbar a {
     text-decoration: none;
     color: #0099FF; /*#555*/
     font-weight: bold;

@@ -17,8 +17,9 @@ export const Header = () => {
         <p> Monday - Saturday 09:30 - 18:30 (IST) <br /> Sunday - Closed</p>
       </div>
 
-      <div className='h-item h-info address'>
-        <h1><IoLocationOutline/></h1>
+      <div className='h-item h-info address'>        
+      <a href="https://maps.app.goo.gl/dZbREF94P3qK9DQRA" target="_blank" rel="noopener noreferrer">
+        <h1><IoLocationOutline/></h1></a>
         <p> 9I, Indraprastha Industrial Area<br />Chambal Industrial Area<br />Road near Rajasthan Patrika Kota,<br />Rajasthan 324007 India </p>
       </div>
 

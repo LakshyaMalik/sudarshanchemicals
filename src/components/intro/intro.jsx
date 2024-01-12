@@ -9,7 +9,7 @@ import "./intro.css";
 export const Intro = () => {
   const [limitedProducts, setLimitedProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const topProductIds = ["ase2106", "ase101", "ase1015", "ase151h"];
+  const topProductIds = ["ase2106f", "ase101", "ase1015", "ase151h"];
   const [error, setError] = useState(null);
 
   useEffect(() => {
