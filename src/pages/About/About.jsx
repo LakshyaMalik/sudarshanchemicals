@@ -10,7 +10,7 @@ export const About = () => {
             <div className="col">
         <h3>About Us</h3>
         <p>
-        Founded in 2010 and nestled in the vibrant city of Kota, Rajasthan, Sudarshan Chemicals has emerged as a stalwart in the industry, becoming synonymous with trust and excellence. With over a decade of unwavering commitment to delivering top-notch solutions, we have etched our name as a reliable and innovative player in the market. </p>
+        Founded in 1986 and nestled in the vibrant city of Kota, Rajasthan, Sudarshan Chemicals has emerged as a stalwart in the industry, becoming synonymous with trust and excellence. With over a decade of unwavering commitment to delivering top-notch solutions, we have etched our name as a reliable and innovative player in the market. </p>
         <p>Our unwavering commitment spans beyond a decade, reflecting our dedication to providing top-notch solutions that not only meet but exceed industry standards. Sudarshan Chemicals remains at the forefront, poised to meet the evolving needs of our customers with a blend of reliability, innovation, and a diverse product range.
         </p>
        

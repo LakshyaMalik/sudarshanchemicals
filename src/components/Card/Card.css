@@ -10,12 +10,12 @@
   overflow: hidden; 
 }
 
-.Card h3 {
+.Card h1 {
   font-size: 1.3rem;
   margin-bottom: 6px;
 }
 
-.Card p {
+.Card p, .Card h4 {
   font-size: 1rem;
   margin: 18px;
   white-space: pre-wrap;
@@ -48,11 +48,11 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .Card h3{
+  .Card h1{
     font-size: 1.2rem;
   }
 
-  .Card p{
+  .Card p, .Card h4{
     font-size: 0.75rem;
   }
 }

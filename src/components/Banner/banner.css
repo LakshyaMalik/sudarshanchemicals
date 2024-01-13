@@ -9,8 +9,9 @@
     justify-content: center;
   }
   
-  .banner h2 {
+  .banner h2,.banner h1 {
     font-size: 1.5rem;
+    color: aliceblue;
   }
 
   .banner .tg{
@@ -69,7 +70,7 @@
   .banner{
     height: 400px;
   }
-  .banner h2 {
+  .banner h2,.banner h1 {
     font-size: 1.1rem;
   }
 }

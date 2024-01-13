@@ -34,7 +34,7 @@ export const Intro = () => {
       <div className="col">
         <h3>Manufacturers And Suppliers of Laboratory Equipment</h3>
         <h4>
-          Registered in 1986, India Sudarshan Chemicals has gained immense expertise in the supply and trade sector. Based in Kota, Rajasthan, we specialize in providing scientific goods, laboratory chemicals, glassware, hospital furniture, and medical equipment.<br />Our products cater to various medical fields, including Biochemistry, Physiology, Anatomy, Microbiology, and more. Committed to delivering top-quality products and exceptional service, we have earned trust as a leading choice in the industry.
+          Registered in 1986, India Sudarshan Chemicals has gained extensive proficiency in the manufacturing and supply industry. Based in Kota, Rajasthan, we specialize in providing scientific goods, laboratory chemicals, glassware, hospital furniture, and medical equipment.<br />Our products cater to various medical fields, including Biochemistry, Physiology, Anatomy, Microbiology, and more. Committed to delivering top-quality products and exceptional service, we have earned trust as a leading choice in the industry.
         </h4>
         <Link to="/about">
           <button>About us</button>
@@ -44,7 +44,7 @@ export const Intro = () => {
       <div className="col idiv">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/sudrshanchemicals.appspot.com/o/Bauji.png?alt=media&token=f63f0e0b-dab0-4762-9e1e-bfa248a4de80"
-          alt="Image of Bauji" // Provide descriptive alt text
+          alt="In Loving Memory of Bauji" // Provide descriptive alt text
         />
       </div>
 

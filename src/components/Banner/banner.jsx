@@ -47,7 +47,7 @@ const Banner = () => {
       <div className="banner-image" style={{ backgroundImage: `url(${slides[currentSlide].imageUrl})` }}>
         <div className="banner-content">
           <div className="tg">
-            <h2>{slides[currentSlide].text}</h2>
+            <h1>{slides[currentSlide].text}</h1>
             <h2>{slides[currentSlide].text2}</h2>
             <h2>{slides[currentSlide].text3}</h2>
             <h2>{slides[currentSlide].text4}</h2>

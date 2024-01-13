@@ -41,6 +41,13 @@
 
 @media screen and (max-width: 1102px){
 
+  .header h1{
+    margin:0.67em;
+  }
+
+  .h-item:hover h1{
+    margin: 0;
+  }
     .header p{
       display: none;
     }
