@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.header p{
+  display:contents;
+}
+
 .header h1 {
   font-family: "McLaren", cursive;
   font-weight: 200;
@@ -32,6 +36,17 @@
 
     .header .h-info{
       display: none;
+    }
+}
+
+@media screen and (max-width: 1102px){
+
+    .header p{
+      display: none;
+    }
+
+    .h-item:hover p{
+      display: contents;
     }
 }
 
