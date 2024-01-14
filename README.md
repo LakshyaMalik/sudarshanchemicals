@@ -38,13 +38,13 @@ To explore the project locally, follow these steps:
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone 
+   git clone https://github.com/LakshyaMalik/sudarshanchemicals.git
    ```
 
 2. Install project dependencies.
    ```bash
    cd alpha-sudarshan-chemicals-website
-   npm install
+   npm ci
    ```
 
 3. Run the project locally.
