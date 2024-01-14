@@ -33,7 +33,6 @@ To explore the project locally, follow these steps:
 
 2. Install project dependencies.
    ```bash
-   cd alpha-sudarshan-chemicals-website
    npm ci
    ```
 
