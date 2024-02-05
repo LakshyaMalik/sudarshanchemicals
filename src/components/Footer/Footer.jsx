@@ -58,7 +58,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; {currYear} Sudarshan Chemicals Pvt. Limited</p>
-        <p><Link to="https://www.linkedin.com/in/lakshya-malik-2a5a33214/">Contact Developer: Lakshya Malik</Link></p>
+        <p><Link to="https://www.linkedin.com/in/lakshya-malik-2a5a33214/">Developed by: Lakshya Malik</Link></p>
       </div>
     </footer>
   );
